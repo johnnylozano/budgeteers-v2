@@ -1,8 +1,8 @@
-/*! === FONTS === */
+/* ! === FONTS === */
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;700&display=swap");
 
 /*! === VARIABLES === */
-:root {
+/* :root {
    --light-clr: #fff;
    --light-clr-2: #bed2c9;
    --light-clr-3: #e1e7dd;
@@ -11,7 +11,7 @@
    --body-bg-clr: #222222;
    --title-font: "Bebas Neue", cursive;
    --body-font: "Poppins", sans-serif;
-}
+} */
 
 /*! === BASE === */
 *,
@@ -22,48 +22,48 @@
    box-sizing: border-box;
 }
 
-html {
+/* html {
    font-size: 62.5%;
    scroll-behavior: smooth;
-}
+} */
 
-body {
+/* body {
    font-family: var(--body-font);
    font-size: 1.4rem;
    line-height: 1.5;
    /* background-color: var(--body-bg-clr);
-   color: var(--body-font-clr); */
-}
+   color: var(--body-font-clr);
+} */
 
-a {
+/* a {
    text-decoration: none;
-}
+} */
 
-ul {
+/* ul {
    list-style: none;
-}
+} */
 
-img,
+/* img,
 picture {
    display: block;
    max-width: 100%;
-}
+} */
 
-input,
+/* input,
 button {
    font: inherit;
    background-color: transparent;
    border: none;
-}
+} */
 
 /*! === SCROLLBAR === */
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
    width: 10px;
-}
+} */
 
-::-webkit-scrollbar-track {
+/* ::-webkit-scrollbar-track {
    background: var(--light-clr-2);
-}
+} */
 
 ::-webkit-scrollbar-thumb {
    background: #888;
