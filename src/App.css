@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+/*! === FONTS === */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;700&display=swap");
+
+/*! === VARIABLES === */
+:root {
+   --light-clr: #fff;
+   --light-clr-2: #bed2c9;
+   --light-clr-3: #e1e7dd;
+   --dark-clr: #2e2e2e;
+   --body-font-clr: #bdbdbd;
+   --body-bg-clr: #222222;
+   --title-font: "Bebas Neue", cursive;
+   --body-font: "Poppins", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*! === BASE === */
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html {
+   font-size: 62.5%;
+   scroll-behavior: smooth;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body {
+   font-family: var(--body-font);
+   font-size: 1.4rem;
+   line-height: 1.5;
+   /* background-color: var(--body-bg-clr);
+   color: var(--body-font-clr); */
 }
 
-.App-link {
-  color: #61dafb;
+a {
+   text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul {
+   list-style: none;
+}
+
+img,
+picture {
+   display: block;
+   max-width: 100%;
+}
+
+input,
+button {
+   font: inherit;
+   background-color: transparent;
+   border: none;
+}
+
+/*! === SCROLLBAR === */
+::-webkit-scrollbar {
+   width: 10px;
+}
+
+::-webkit-scrollbar-track {
+   background: var(--light-clr-2);
+}
+
+::-webkit-scrollbar-thumb {
+   background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+   background: #555;
 }
