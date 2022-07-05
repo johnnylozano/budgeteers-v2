@@ -1,5 +1,6 @@
 import React from "react";
 import { FaBars } from "react-icons/fa";
+import { GiPirateFlag } from "react-icons/gi";
 import {
    Nav,
    NavbarContainer,
@@ -17,7 +18,10 @@ const Navbar = () => {
       <>
          <Nav>
             <NavbarContainer>
-               <NavLogo to="/">Budgeteers</NavLogo>
+               <NavLogo to="/">
+                  <GiPirateFlag size={30} />
+                  <div>Budgeteers</div>
+               </NavLogo>
                <MobileIcon>
                   <FaBars />
                </MobileIcon>
