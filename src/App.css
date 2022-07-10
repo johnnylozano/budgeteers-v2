@@ -22,48 +22,18 @@
    box-sizing: border-box;
 }
 
-/* html {
-   font-size: 62.5%;
-   scroll-behavior: smooth;
-} */
-
 body {
    font-family: var(--body-font);
-   /* font-size: 1.4rem; */
-   /* line-height: 1.5; */
-   /* background-color: var(--body-bg-clr); */
-   /* color: var(--body-font-clr); */
 }
 
-/* a {
-   text-decoration: none;
-} */
-
-/* ul {
-   list-style: none;
-} */
-
-/* img,
-picture {
-   display: block;
-   max-width: 100%;
-} */
-
-/* input,
-button {
-   font: inherit;
-   background-color: transparent;
-   border: none;
-} */
-
 /*! === SCROLLBAR === */
-/* ::-webkit-scrollbar {
-   width: 10px;
-} */
+::-webkit-scrollbar {
+   width: 8px;
+}
 
-/* ::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
    background: var(--light-clr-2);
-} */
+}
 
 ::-webkit-scrollbar-thumb {
    background: #888;
