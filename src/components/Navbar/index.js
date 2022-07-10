@@ -13,7 +13,7 @@ import {
    NavBtnLink,
 } from "./NavbarElements";
 
-const Navbar = () => {
+const Navbar = ({ toggle }) => {
    return (
       <>
          <Nav>
@@ -22,7 +22,7 @@ const Navbar = () => {
                   <GiPirateFlag size={30} />
                   <div>Budgeteers</div>
                </NavLogo>
-               <MobileIcon>
+               <MobileIcon onClick={toggle}>
                   <FaBars />
                </MobileIcon>
                <NavMenu>
