@@ -28,7 +28,7 @@ const HeroSection = () => {
          <HeroContent>
             <HeroH1>Managing Finances Made Easy</HeroH1>
             <HeroP>
-               Sign up today to revolutionize the way you manage your budgeting.
+               Sign up today to revolutionize the way you manage your finances.
             </HeroP>
             <HeroBtnWrapper>
                <Button
