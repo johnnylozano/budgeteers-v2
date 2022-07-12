@@ -22,7 +22,7 @@ export const homeObjTwo = {
    lightText: false,
    lightTextDesc: false,
    topLine: "FORGET THE PEN AND PAPER",
-   headline: "Access Anywhere Straight from Your Phone",
+   headline: "Access Anywhere Straight from Your Phone or Desktop",
    description:
       "You no longer have to spend hours writing and calculating each transaction on paper. Our app stores each transaction straight from your phone or desktop, and it instantly calculates for you.",
    buttonLabel: "Learn More",

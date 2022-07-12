@@ -40,7 +40,7 @@ const Navbar = ({ toggle }) => {
                   </NavItem>
 
                   <NavBtn>
-                     <NavBtnLink to="/demo">Demo</NavBtnLink>
+                     <NavBtnLink to="/budget-calculator">Manage</NavBtnLink>
                   </NavBtn>
                </NavMenu>
             </NavbarContainer>
