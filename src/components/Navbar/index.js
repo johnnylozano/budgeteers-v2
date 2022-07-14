@@ -95,7 +95,7 @@ const Navbar = ({ toggle }) => {
                   </NavItem>
 
                   <NavBtn>
-                     <NavBtnLink to="/budget-calculator">Manage</NavBtnLink>
+                     <NavBtnLink to="/budget-calculator">Budget Now</NavBtnLink>
                   </NavBtn>
                </NavMenu>
             </NavbarContainer>

@@ -32,7 +32,7 @@ const MobileSidebar = ({ isOpen, toggle }) => {
                </SidebarLink>
             </SidebarMenu>
             <SideBtnWrap>
-               <SidebarRoute to="/">Demo</SidebarRoute>
+               <SidebarRoute to="budget-calculator">Budget Now</SidebarRoute>
             </SideBtnWrap>
          </SidebarWrapper>
       </SidebarContainer>

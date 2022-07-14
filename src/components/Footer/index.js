@@ -51,11 +51,11 @@ const Footer = () => {
                </FooterLinksWrapper>
                <FooterLinksWrapper>
                   <FooterLinkItems>
-                     <FooterLinkTitle>About Us</FooterLinkTitle>
-                     <FooterLink to="/">How it works</FooterLink>
-                     <FooterLink to="/">Testimonials</FooterLink>
-                     <FooterLink to="/">Careers</FooterLink>
-                     <FooterLink to="/">Investors</FooterLink>
+                     <FooterLinkTitle>Contact Us</FooterLinkTitle>
+                     <FooterLink to="/">Contact</FooterLink>
+                     <FooterLink to="/">Support</FooterLink>
+                     <FooterLink to="/">Destinations</FooterLink>
+                     <FooterLink to="/">Sponsorships</FooterLink>
                   </FooterLinkItems>
                   <FooterLinkItems>
                      <FooterLinkTitle>Connect With Us</FooterLinkTitle>
