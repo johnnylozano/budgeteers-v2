@@ -28,8 +28,8 @@ export const Balance = () => {
 
    return (
       <>
-         <TitleH4>Your Balance</TitleH4>
-         <TitleH1>{moneyFormatter(total)}</TitleH1>
+         <TitleH4 className="balance">Your Balance</TitleH4>
+         <TitleH1 className="total">{moneyFormatter(total)}</TitleH1>
       </>
    );
 };
