@@ -111,4 +111,9 @@ export const SocialIcons = styled.div`
 export const SocialIconLink = styled.a`
    color: #fff;
    font-size: 24px;
+   transition: color 0.2s;
+
+   &:hover {
+      color: #01fb71;
+   }
 `;
