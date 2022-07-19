@@ -1,8 +1,12 @@
 # Budgeteers Version 2
 
-Recreating my budgeteers application in React.js
+A recreation of my budgeteers application in React.js
 
-## Application to manage your finances
+## Company landing page, and application to manage your finances
+Visit at https://budgeteers.netlify.app
 
 ### View the old version here:
 https://github.com/johnnylozano/Budgeteers
+
+## Demo
+<img src="./src/videos/budgeteers-demo.gif" alt="Demo" />
